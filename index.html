@@ -11,11 +11,20 @@
 </head>
 <body>
   <!-- navbar -->
+  <!-- navbar small device -->
 
+  <div class="nav-bar flex place-content-between px-20 py-3 lg:hidden">
+    <div class="nav-logo w-40 h-16.5">
+      <img src="./assets/nav-logo.svg" alt="" class="full">
+    </div>
+    <div class="w-6 flex items-center place-content-center">
+      <img src="./assets/bars-solid-full.svg" alt="">
+    </div>
+  </div>
   <!-- navbar big device-width -->
-  <div class="nav-bar flex place-content-between px-20 py-3 hidden">
-    <div class="nav-logo">
-      <img src="./assets/nav-logo.svg" alt="">
+  <div class="nav-bar place-content-between px-20 py-3 hidden text-center lg:flex">
+    <div class="nav-logo w-40 h-16.5">
+      <img src="./assets/nav-logo.svg" alt="" class="w-full">
     </div>
     <div class="paths flex">
       <div class="nav-clicks flex place-content-between gap-4 items-center text-center text-[20px]">
@@ -32,16 +41,7 @@
       </button>
   </div>
 
-  <!-- navbar small device -->
 
-  <div class="nav-bar flex place-content-between px-20 py-3">
-    <div class="nav-logo">
-      <img src="./assets/nav-logo.svg" alt="">
-    </div>
-    <div class="w-6 h-6">
-      <img src="./assets/bars-solid-full.svg" alt="">
-    </div>
-  </div>
 
 
 </body>
